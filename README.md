@@ -1,6 +1,10 @@
 # MapsReminder_HyperislandSupport
 
-Aplikasi Android native (Kotlin) ultra-ringan yang berfungsi sebagai pengingat transit dan drop berbasis integrasi cerdas dengan Google Maps. Dirancang khusus dengan tampilan antarmuka yang bersih dan kompatibel secara dinamis dengan status bar **Xiaomi HyperOS (HyperIsland / Focus Notification)**.
+[![Download APK](https://img.shields.io/badge/Download-TransitReminder.apk-34C759?style=for-the-badge&logo=android)](https://github.com/Dexiusss/MapsReminder_HyperislandSupport/releases/download/v1.0.0/TransitReminder.apk)
+[![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge)](https://github.com/Dexiusss/MapsReminder_HyperislandSupport/releases/tag/v1.0.0)
+
+> 📲 **Download Langsung File APK:**  
+> Unduh file siap pasang di HP Anda melalui [**TransitReminder.apk (v1.0.0)**](https://github.com/Dexiusss/MapsReminder_HyperislandSupport/releases/download/v1.0.0/TransitReminder.apk).
 
 ---
 
