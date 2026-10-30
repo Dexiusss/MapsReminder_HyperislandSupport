@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Transit Reminder</string>
+    <string name="notification_channel_name">Transit Reminder</string>
+    <string name="notification_channel_desc">Notifikasi status transit dan rute Google Maps</string>
+    <string name="status_listening">Mendengarkan Google Maps...</string>
+    <string name="status_permission_needed">Izin Pembaca Notifikasi Belum Aktif</string>
+    <string name="btn_grant_permission">Buka Pengaturan Izin Notifikasi</string>
+    <string name="title_settings">Pengaturan Alarm</string>
+    <string name="label_threshold">Picu Alarm Saat Jarak Kurang Dari:</string>
+    <string name="btn_simulate_transit">Uji Coba Tampilan Notifikasi</string>
+</resources>

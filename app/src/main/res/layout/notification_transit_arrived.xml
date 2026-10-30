@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_arrived"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <!-- Baris 1: Status Indikator Mendekati Lokasi & Tombol Kapsul -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Badge Alert Mirip Google Maps Saat Mendekati Tujuan -->
+        <TextView
+            android:id="@+id/tvAlertBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_pill_on"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="3dp"
+            android:text="TIBA SEBENTAR LAGI"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <!-- Tombol Pill Kapsul (Kanan) -->
+        <TextView
+            android:id="@+id/btnPillToggle"
+            android:layout_width="64dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_pill_on"
+            android:gravity="center"
+            android:text="ON"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Baris 2: Nama Tujuan (Besar & Jelas) -->
+    <TextView
+        android:id="@+id/tvDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Halte Juanda"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- Baris 3: Instruksi & Sisa Jarak -->
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Sisa 150 m • Segera bersiap turun dari kendaraan"
+        android:textColor="#C8E6C9"
+        android:textSize="13sp" />
+
+</LinearLayout>
